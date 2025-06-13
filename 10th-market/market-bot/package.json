@@ -1,0 +1,36 @@
+{
+  "name": "market-bot",
+  "version": "1.0.0",
+  "description": "Cryptocurrency market data collection bot using CCXT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "jest",
+    "config": "node scripts/quick-config.js",
+    "config:minimal": "cp config.env.example .env && echo 'ENABLE_BINANCE=false' >> .env && echo 'ENABLE_BYBIT=false' >> .env && echo 'ENABLE_PERPETUAL_DATA=false' >> .env",
+    "config:reset": "cp config.env.example .env",
+    "show-config": "node -e \"const config = require('./config/app-config'); console.log(JSON.stringify(config.getSummary(), null, 2));\""
+  },
+  "keywords": [
+    "crypto",
+    "market",
+    "data",
+    "ccxt",
+    "trading"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ccxt": "^4.1.90",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.5",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2"
+  }
+}

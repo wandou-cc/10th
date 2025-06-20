@@ -381,7 +381,7 @@ class ApiServer {
         // 获取所有币种在不同交易所的信息（按热度排序）
         this.app.get('/api/coins', async (req, res) => {
             try {
-                const { limit = 200 } = req.query;
+                const { limit = 1000 } = req.query;
                 
                 console.log(`🪙 获取所有币种综合信息，限制: ${limit}`);
                 

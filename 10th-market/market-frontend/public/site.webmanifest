@@ -1,0 +1,102 @@
+{
+  "name": "coinHyper - Advanced Blockchain Tools & Analytics Platform",
+  "short_name": "coinHyper",
+  "description": "Transform your blockchain experience with advanced analytics tools, real-time market insights, and comprehensive DeFi solutions.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0ea5e9",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["finance", "business", "productivity", "utilities"],
+  "screenshots": [
+    {
+      "src": "/screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "coinHyper desktop view"
+    },
+    {
+      "src": "/screenshot-mobile.png", 
+      "sizes": "360x640",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "coinHyper mobile view"
+    }
+  ],
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512", 
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png", 
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Analytics Dashboard",
+      "url": "/analytics",
+      "description": "View real-time blockchain analytics",
+      "icons": [
+        {
+          "src": "/icon-analytics.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Market Insights",
+      "url": "/market",
+      "description": "Access latest market data and insights",
+      "icons": [
+        {
+          "src": "/icon-market.png",
+          "sizes": "96x96", 
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "DeFi Tools",
+      "url": "/defi",
+      "description": "Explore DeFi tools and calculators",
+      "icons": [
+        {
+          "src": "/icon-defi.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false,
+  "edge_side_includes": false
+} 
